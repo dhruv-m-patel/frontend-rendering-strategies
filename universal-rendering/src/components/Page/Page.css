@@ -1,0 +1,29 @@
+@import '../../styles/variables.css';
+
+html {
+  font-size: 100%;
+}
+
+a, a:hover, a:active {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.success {
+  color: var(--success);
+}
+
+.warning {
+  color: var(--warning);
+}
+
+.error {
+  color: var(--error);
+}
+
+.page {
+  background-color: var(--white);
+  color: var(--black);
+  font-size: var(--baseFontSize);
+  font-family: Helvetica, sans-serif;
+}
