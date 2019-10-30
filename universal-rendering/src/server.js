@@ -43,12 +43,7 @@ app.get('*', async (req, res, next) => {
         </Provider>
       </StaticRouter>
     );
-
-    if (context.url) {
-      res.redirect(context.url);
-    } else {
-      res.status(200).send(getInitialHtml(content, manifest, store.getState()));
-    }
+    res.status(200).send(getInitialHtml(content, manifest, store.getState()));
   }
 
   next();
