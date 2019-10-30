@@ -6,7 +6,7 @@
 
 ### Client Only Rendering
 
-- An example showing how to use client-only rendering using creact-react-app
+- An example showing how to use client-only rendering using create-react-app
 
 ### Universal Rendering
 
