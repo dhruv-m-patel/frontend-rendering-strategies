@@ -1,14 +1,14 @@
-# front-end-samples
+# frontend-rendering-strategies
 
 ### Server Only Rendering
 
-- An example showing how to use server-only rendering using express
+- This is a frontend rendering strategy where all rendered HTML is entirely provided by server
 
 ### Client Only Rendering
 
-- An example showing how to use client-only rendering using create-react-app
+- This is a frontend rendering strategy in which all HTML is purely rendered in browser through the scripts
 
 ### Universal Rendering
 
-- An example of how to serve React on both server and client using universal rendering technique.
-- Reference: https://github.com/dhruv-m-patel/react-ssr-app
+- This is a rendering technique in which the markup required for the initial page load is supplied by the server and then the client takes care of the routing on client-side rendering subsequent pages through scripts.
+- Reference: https://github.com/dhruv-m-patel/react-app
